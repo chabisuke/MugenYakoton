@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2BE6FA16F0AB3800208C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2BE6F916F0AB3800208C59 /* UIKit.framework */; };
+		BF2BE6FC16F0AB3800208C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2BE6FB16F0AB3800208C59 /* Foundation.framework */; };
+		BF2BE6FE16F0AB3800208C59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2BE6FD16F0AB3800208C59 /* CoreGraphics.framework */; };
+		BF2BE70416F0AB3800208C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF2BE70216F0AB3800208C59 /* InfoPlist.strings */; };
+		BF2BE70616F0AB3800208C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BE70516F0AB3800208C59 /* main.m */; };
+		BF2BE70A16F0AB3800208C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BE70916F0AB3800208C59 /* AppDelegate.m */; };
+		BF2BE70C16F0AB3800208C59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BE70B16F0AB3800208C59 /* Default.png */; };
+		BF2BE70E16F0AB3800208C59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BE70D16F0AB3800208C59 /* Default@2x.png */; };
+		BF2BE71016F0AB3800208C59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BE70F16F0AB3800208C59 /* Default-568h@2x.png */; };
+		BF2BE71316F0AB3800208C59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2BE71116F0AB3800208C59 /* MainStoryboard.storyboard */; };
+		BF2BE71616F0AB3800208C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BE71516F0AB3800208C59 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF2BE6F616F0AB3800208C59 /* MugenYakoton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MugenYakoton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2BE6F916F0AB3800208C59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF2BE6FB16F0AB3800208C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF2BE6FD16F0AB3800208C59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF2BE70116F0AB3800208C59 /* MugenYakoton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MugenYakoton-Info.plist"; sourceTree = "<group>"; };
+		BF2BE70316F0AB3800208C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF2BE70516F0AB3800208C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2BE70716F0AB3800208C59 /* MugenYakoton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MugenYakoton-Prefix.pch"; sourceTree = "<group>"; };
+		BF2BE70816F0AB3800208C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF2BE70916F0AB3800208C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF2BE70B16F0AB3800208C59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF2BE70D16F0AB3800208C59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF2BE70F16F0AB3800208C59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF2BE71216F0AB3800208C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF2BE71416F0AB3800208C59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF2BE71516F0AB3800208C59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2BE6F316F0AB3800208C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2BE6FA16F0AB3800208C59 /* UIKit.framework in Frameworks */,
+				BF2BE6FC16F0AB3800208C59 /* Foundation.framework in Frameworks */,
+				BF2BE6FE16F0AB3800208C59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2BE6ED16F0AB3800208C59 = {
+			isa = PBXGroup;
+			children = (
+				BF2BE6FF16F0AB3800208C59 /* MugenYakoton */,
+				BF2BE6F816F0AB3800208C59 /* Frameworks */,
+				BF2BE6F716F0AB3800208C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2BE6F716F0AB3800208C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BE6F616F0AB3800208C59 /* MugenYakoton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2BE6F816F0AB3800208C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BE6F916F0AB3800208C59 /* UIKit.framework */,
+				BF2BE6FB16F0AB3800208C59 /* Foundation.framework */,
+				BF2BE6FD16F0AB3800208C59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2BE6FF16F0AB3800208C59 /* MugenYakoton */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BE70816F0AB3800208C59 /* AppDelegate.h */,
+				BF2BE70916F0AB3800208C59 /* AppDelegate.m */,
+				BF2BE71116F0AB3800208C59 /* MainStoryboard.storyboard */,
+				BF2BE71416F0AB3800208C59 /* ViewController.h */,
+				BF2BE71516F0AB3800208C59 /* ViewController.m */,
+				BF2BE70016F0AB3800208C59 /* Supporting Files */,
+			);
+			path = MugenYakoton;
+			sourceTree = "<group>";
+		};
+		BF2BE70016F0AB3800208C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BE70116F0AB3800208C59 /* MugenYakoton-Info.plist */,
+				BF2BE70216F0AB3800208C59 /* InfoPlist.strings */,
+				BF2BE70516F0AB3800208C59 /* main.m */,
+				BF2BE70716F0AB3800208C59 /* MugenYakoton-Prefix.pch */,
+				BF2BE70B16F0AB3800208C59 /* Default.png */,
+				BF2BE70D16F0AB3800208C59 /* Default@2x.png */,
+				BF2BE70F16F0AB3800208C59 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2BE6F516F0AB3800208C59 /* MugenYakoton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2BE71916F0AB3800208C59 /* Build configuration list for PBXNativeTarget "MugenYakoton" */;
+			buildPhases = (
+				BF2BE6F216F0AB3800208C59 /* Sources */,
+				BF2BE6F316F0AB3800208C59 /* Frameworks */,
+				BF2BE6F416F0AB3800208C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MugenYakoton;
+			productName = MugenYakoton;
+			productReference = BF2BE6F616F0AB3800208C59 /* MugenYakoton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2BE6EE16F0AB3800208C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Chabisuke;
+			};
+			buildConfigurationList = BF2BE6F116F0AB3800208C59 /* Build configuration list for PBXProject "MugenYakoton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF2BE6ED16F0AB3800208C59;
+			productRefGroup = BF2BE6F716F0AB3800208C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2BE6F516F0AB3800208C59 /* MugenYakoton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2BE6F416F0AB3800208C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2BE70416F0AB3800208C59 /* InfoPlist.strings in Resources */,
+				BF2BE70C16F0AB3800208C59 /* Default.png in Resources */,
+				BF2BE70E16F0AB3800208C59 /* Default@2x.png in Resources */,
+				BF2BE71016F0AB3800208C59 /* Default-568h@2x.png in Resources */,
+				BF2BE71316F0AB3800208C59 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2BE6F216F0AB3800208C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2BE70616F0AB3800208C59 /* main.m in Sources */,
+				BF2BE70A16F0AB3800208C59 /* AppDelegate.m in Sources */,
+				BF2BE71616F0AB3800208C59 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF2BE70216F0AB3800208C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2BE70316F0AB3800208C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF2BE71116F0AB3800208C59 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2BE71216F0AB3800208C59 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2BE71716F0AB3800208C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2BE71816F0AB3800208C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2BE71A16F0AB3800208C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MugenYakoton/MugenYakoton-Prefix.pch";
+				INFOPLIST_FILE = "MugenYakoton/MugenYakoton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF2BE71B16F0AB3800208C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MugenYakoton/MugenYakoton-Prefix.pch";
+				INFOPLIST_FILE = "MugenYakoton/MugenYakoton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2BE6F116F0AB3800208C59 /* Build configuration list for PBXProject "MugenYakoton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2BE71716F0AB3800208C59 /* Debug */,
+				BF2BE71816F0AB3800208C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2BE71916F0AB3800208C59 /* Build configuration list for PBXNativeTarget "MugenYakoton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2BE71A16F0AB3800208C59 /* Debug */,
+				BF2BE71B16F0AB3800208C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2BE6EE16F0AB3800208C59 /* Project object */;
+}
